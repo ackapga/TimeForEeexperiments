@@ -18,17 +18,23 @@
             }
 
             $(document).ready (function () {
-               $("#load").bind("click", function () {
-                   let admin = "ADMIN";
-                   $.ajax ({
-                       url: "content.php",
-                       type: "POST",
-                       data: ({name: admin, number: 5}),
-                       dataType: "html",
-                       beforeSend: funcBefore,
-                       success: funcSuccess
-                   })
-               });
+                $("#load").bind("click", function () {
+                    $.ajax ({
+                        url: "check.php",
+                        type: "POST",
+                        data: ({name: $("#name").val()}),
+                        dataType: "html",
+                        beforeSend: function () {
+                            $("#info").text("Ожидание данных...");
+                        },
+                        success: function (data) {
+                            if(data == "Fail")
+                                $("#info").text(data);
+                            else
+                                $("#info").text(data);
+                        }
+                    });
+                });
             });
         </script>
 
@@ -36,7 +42,9 @@
 
     <body>
 
-    <p id="load" style="cursor: pointer">Старт</p>
+    <input type="text" id="name" placeholder="Введите имя">
+
+    <input type="button" id="load" value="Отправить">
 
     <div id="info"></div>
 

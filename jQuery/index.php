@@ -12,18 +12,16 @@
     <body>
     <div class="content">
         <div class="box_jQuery">
-
-            <span id="status" class="status"></span>
-
             <div>
                 <input type="text" id="name" class="input" placeholder="Введите имя">
 
                 <input type="button" id="load" class="load" value="Отправить">
             </div>
 
-            <div id="info" class="info">text</div>
+            <div id="info" class="info">...</div>
 
         </div>
+        <span id="status" class="status"></span>
     </div>
     </body>
 
@@ -37,6 +35,16 @@
             $("#info").text(data)
         }
 
+        function statusIcons(data, color) {
+            $("#status").text(data);
+            $("#status").css('background-color', color);
+            $("#status").fadeIn('slow');
+            setInterval(function() {
+                $("#status").fadeOut("slow");
+            }, 3000);
+        }
+
+
         $(document).ready (function () {
             $("#load").bind("click", function () {
 
@@ -45,7 +53,7 @@
                 $.ajax ({
                     url: "content.php",
                     type: "POST",
-                    data: ({name: check, number: 5}),
+                    data: ({name: check}),
                     dataType: "html",
                     beforeSend: funcBefore,
                     success: funcSuccess
@@ -56,12 +64,14 @@
                     type: "POST",
                     data: ({check: check }),
                     success: function (data) {
-                        if(data == "Fail")
-                            $("#status").text(data);
-                        else
-                            $("#status").text(data);
+                        if(data == "Fail") {
+                            statusIcons(data, '#fd0001');
+                        } else {
+                            statusIcons(data, '#02bc36');
+                        }
                     }
                 });
+
 
             });
         });

@@ -1,2 +1,5 @@
 <?php
-    echo "Данные: строка - " . $_POST['name'] . ". Цифра - " . $_POST['number'];
+// Simulating waiting time
+sleep(1);
+//
+echo "Данные: строка - " . $_POST['name'];

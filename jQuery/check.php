@@ -1,8 +1,8 @@
 <?php
-$name = $_POST['name'];
+$check = $_POST['check'];
 
-if ($name == 'admin') {
+if ($check == 'admin') {
     echo 'Fail';
 } else {
-    echo $name;
+    echo 'Success';
 }

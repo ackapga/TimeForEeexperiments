@@ -13,11 +13,13 @@
     <div class="content">
         <div class="box_jQuery">
 
-            <span id="status" class="status">status</span>
+            <span id="status" class="status"></span>
 
-            <input type="text" id="name" class="input" placeholder="Введите имя">
+            <div>
+                <input type="text" id="name" class="input" placeholder="Введите имя">
 
-            <input type="button" id="load" class="load" value="Отправить">
+                <input type="button" id="load" class="load" value="Отправить">
+            </div>
 
             <div id="info" class="info">text</div>
 
@@ -37,36 +39,33 @@
 
         $(document).ready (function () {
             $("#load").bind("click", function () {
-                let admin = "ADMIN";
+
+                var check = $("#name").val();
+
                 $.ajax ({
                     url: "content.php",
                     type: "POST",
-                    data: ({name: admin, number: 5}),
+                    data: ({name: check, number: 5}),
                     dataType: "html",
                     beforeSend: funcBefore,
                     success: funcSuccess
                 })
-            });
-        });
 
-        $(document).ready (function () {
-            $("#load").bind("click", function () {
                 $.ajax ({
                     url: "check.php",
                     type: "POST",
-                    data: ({name: $("#name").val()}),
-                    dataType: "html",
-                    beforeSend: function () {
-                        $("#info").text("Ожидание данных...");
-                    },
+                    data: ({check: check }),
                     success: function (data) {
                         if(data == "Fail")
-                            $("#info").text(data);
+                            $("#status").text(data);
                         else
-                            $("#info").text(data);
+                            $("#status").text(data);
                     }
                 });
+
             });
         });
+
+
     </script>
 </html>

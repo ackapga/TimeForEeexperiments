@@ -21,6 +21,8 @@
     background-color: #ff4343;
     color: white;
     border-radius: 9px;
+    position: absolute;
+    left: 25%;
 }
 
 .input {

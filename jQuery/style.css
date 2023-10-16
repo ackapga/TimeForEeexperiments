@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: 0 10%;
+}
+
+.box_jQuery {
+    border: 1px solid gray;
+    border-radius: 9px;
+    text-align: center;
+    background: #d1d1d1;
+    margin: 20px 0;
+    padding: 25px;
+}
+
+.status {
+    padding: 5px;
+    background-color: #ff4343;
+    color: white;
+    border-radius: 9px;
+}
+
+.input {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.load {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.info {
+    border: 1px solid gray;
+    border-radius: 7px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 5px;
+}

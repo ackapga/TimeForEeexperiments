@@ -1,30 +1,13 @@
 <?php
-// Simulating waiting time
-sleep(1);
-
-// Simulating DataBase
-
-$dataBase = [
-    'admin',
-    'ackap',
-    'people',
-    'aaa',
-];
-
-// Receive a POST request
-$check = $_POST['check'];
-
-// Check
-foreach ($dataBase as $db) {
-    if ($check == $db) {
-        $callback = 'Fail';
-        break;
-    } else {
-        $callback = 'Success';
+function checkName ($dataBase, $check) {
+    $name = strtolower($check);
+    foreach ($dataBase as $db) {
+        if ($name == $db) {
+            $callback = 'Fail';
+            break;
+        } else {
+            $callback = 'Success';
+        }
     }
+    return $callback;
 }
-
-// CallBack :)
-echo $callback;
-
-

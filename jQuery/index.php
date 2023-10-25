@@ -42,25 +42,16 @@
             setInterval(function() {
                 $("#status").fadeOut("slow");
             }, 3000);
-        }
 
+        }
 
         $(document).ready (function () {
             $("#load").bind("click", function () {
-
+                //
                 var check = $("#name").val();
-
+                //
                 $.ajax ({
-                    url: "content.php",
-                    type: "POST",
-                    data: ({name: check}),
-                    dataType: "html",
-                    beforeSend: funcBefore,
-                    success: funcSuccess
-                })
-
-                $.ajax ({
-                    url: "check.php",
+                    url: "status.php",
                     type: "POST",
                     data: ({check: check }),
                     success: function (data) {
@@ -71,8 +62,15 @@
                         }
                     }
                 });
-
-
+                //
+                $.ajax ({
+                    url: "content.php",
+                    type: "POST",
+                    data: ({name: check}),
+                    dataType: "html",
+                    beforeSend: funcBefore,
+                    success: funcSuccess
+                });
             });
         });
 

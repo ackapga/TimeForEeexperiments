@@ -5,6 +5,9 @@
 
 .content {
     margin: 0 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .box_jQuery {
@@ -17,8 +20,7 @@
 }
 
 .status {
-    padding: 5px;
-    background-color: #ff4343;
+    padding: 5px 20px 5px 20px;
     color: white;
     border-radius: 9px;
 }

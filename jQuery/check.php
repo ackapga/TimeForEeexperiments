@@ -1,8 +1,13 @@
 <?php
-$name = $_POST['name'];
-
-if ($name == 'admin') {
-    echo 'Fail';
-} else {
-    echo $name;
+function checkName ($dataBase, $check) {
+    $name = strtolower($check);
+    foreach ($dataBase as $db) {
+        if ($name == $db) {
+            $callback = 'Fail';
+            break;
+        } else {
+            $callback = 'Success';
+        }
+    }
+    return $callback;
 }

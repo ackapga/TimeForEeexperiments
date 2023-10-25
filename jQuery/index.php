@@ -12,16 +12,16 @@
     <body>
     <div class="content">
         <div class="box_jQuery">
+            <div>
+                <input type="text" id="name" class="input" placeholder="Введите имя">
 
-            <span id="status" class="status">status</span>
+                <input type="button" id="load" class="load" value="Отправить">
+            </div>
 
-            <input type="text" id="name" class="input" placeholder="Введите имя">
-
-            <input type="button" id="load" class="load" value="Отправить">
-
-            <div id="info" class="info">text</div>
+            <div id="info" class="info">...</div>
 
         </div>
+        <span id="status" class="status"></span>
     </div>
     </body>
 
@@ -35,38 +35,45 @@
             $("#info").text(data)
         }
 
-        $(document).ready (function () {
-            $("#load").bind("click", function () {
-                let admin = "ADMIN";
-                $.ajax ({
-                    url: "content.php",
-                    type: "POST",
-                    data: ({name: admin, number: 5}),
-                    dataType: "html",
-                    beforeSend: funcBefore,
-                    success: funcSuccess
-                })
-            });
-        });
+        function statusIcons(data, color) {
+            $("#status").text(data);
+            $("#status").css('background-color', color);
+            $("#status").fadeIn('slow');
+            setInterval(function() {
+                $("#status").fadeOut("slow");
+            }, 3000);
+
+        }
 
         $(document).ready (function () {
             $("#load").bind("click", function () {
+                //
+                var check = $("#name").val();
+                //
                 $.ajax ({
-                    url: "check.php",
+                    url: "status.php",
                     type: "POST",
-                    data: ({name: $("#name").val()}),
-                    dataType: "html",
-                    beforeSend: function () {
-                        $("#info").text("Ожидание данных...");
-                    },
+                    data: ({check: check }),
                     success: function (data) {
-                        if(data == "Fail")
-                            $("#info").text(data);
-                        else
-                            $("#info").text(data);
+                        if(data == "Fail") {
+                            statusIcons(data, '#fd0001');
+                        } else {
+                            statusIcons(data, '#02bc36');
+                        }
                     }
+                });
+                //
+                $.ajax ({
+                    url: "content.php",
+                    type: "POST",
+                    data: ({name: check}),
+                    dataType: "html",
+                    beforeSend: funcBefore,
+                    success: funcSuccess
                 });
             });
         });
+
+
     </script>
 </html>

@@ -1,5 +1,4 @@
 <?php
-die();
 $directories = [
     'aktau',
     'aktobe',
@@ -22,7 +21,7 @@ $directories = [
     'shymkent',
 ];
 $originalFiles = [
-    'scale_4d.php',
+    'scale_none.html',
 ];
 
 foreach ($directories as $directory) {
@@ -139,12 +138,22 @@ function updateMetaTags($file, $location, $originalFile)
             $content = str_replace('<li><a href="../' . $originalFile . '">Астана</a></li>', '<li><a href="../' . $originalFile . '">Алматы</a></li>', $content);
 
             // Header Phone
-            $content = str_replace("<div class=\"nomer\"><a href=\"tel:87273449900\">8(727) <span>344-99-00</span></a></div>", "<div class=\"nomer\"><a href=\"tel:87172279900\">8(7172) <span>27-99-00</span></a></div>", $content);
-            $content = str_replace("<div class=\"nomer\"><a href=\"tel:87012667700\">8(701) <span>266-77-00</span></a></div>", "", $content);
+            $content = str_replace(
+                "<div class=\"nomer\"><a href=\"tel:87273449900\">8(727) <span>344-99-00</span></a></div>",
+                "<div class=\"nomer\"><a href=\"tel:87172279900\">8(7172) <span>27-99-00</span></a></div>", $content);
+            $content = str_replace(
+                "<div class=\"nomer\"><a href=\"tel:87012667700\">8(701) <span>266-77-00</span></a></div>",
+                "", $content);
             // Footer Phone / Email / Address
-            $content = str_replace("<p><a href=\"tel:87273449900\">8 (727) 344-99-00</a></p>", "<p><a href=\"tel:87015112200\">+7 (701) 511-22-00</a></p>", $content);
-            $content = str_replace("<p><a href=\"tel:87273449900\">+7 (701) 266-77-00</a></p>", "<p><a href=\"tel:87172279900\">+7 (7172) 27-99-00</a></p>", $content);
-            $content = str_replace("<p><a href=\"mailto:zakaz@idiamarket.kz\"> zakaz@idiamarket.kz</a></p>", "<p><a href=\"mailto:astana@idiamarket.kz\"> astana@idiamarket.kz</a></p>", $content);
+            $content = str_replace(
+                "<p><a href=\"tel:87273449900\">8 (727) 344-99-00</a></p>",
+                "<p><a href=\"tel:87015112200\">+7 (701) 511-22-00</a></p>", $content);
+            $content = str_replace(
+                "<p><a href=\"tel:87273449900\">+7 (701) 266-77-00</a></p>",
+                "<p><a href=\"tel:87172279900\">+7 (7172) 27-99-00</a></p>", $content);
+            $content = str_replace(
+                "<p><a href=\"mailto:zakaz@idiamarket.kz\"> zakaz@idiamarket.kz</a></p>",
+                "<p><a href=\"mailto:astana@idiamarket.kz\"> astana@idiamarket.kz</a></p>", $content);
             $content = str_replace("ул. Мынбаева 43 (уг. ул. между Ауезова и Манаса), 1-этаж, 050008", "ул. Бейсекбаева 24/1, 2-этаж, бизнес центр DARA", $content);
             break;
         case 'pavlodar':
@@ -218,6 +227,25 @@ function updateMetaTags($file, $location, $originalFile)
             $content = str_replace('Алматы', 'Шымкент', $content);
             $content = str_replace('алматы', 'шымкент', $content);
             $content = str_replace('<li><a href="../' . $originalFile . '">Шымкент</a></li>', '<li><a href="../' . $originalFile . '">Алматы</a></li>', $content);
+
+            // Header Phone
+            $content = str_replace(
+                "<div class=\"nomer\"><a href=\"tel:87273449900\">8(727) <span>344-99-00</span></a></div>",
+                "<div class=\"nomer\"><a href=\"tel:87252399900\">8(7252) <span>39-99-00</span></a></div>", $content);
+            $content = str_replace(
+                "<div class=\"nomer\"><a href=\"tel:87012667700\">8(701) <span>266-77-00</span></a></div>",
+                "<div class=\"nomer\"><a href=\"tel:87019447700\">8(701) <span>944-77-00</span></a></div>", $content);
+            // Footer Phone / Email / Address
+            $content = str_replace(
+                "<p><a href=\"tel:87273449900\">8 (727) 344-99-00</a></p>",
+                "<p><a href=\"tel:87252399900\">8 (7252) 39-99-00</a></p>", $content);
+            $content = str_replace(
+                "<p><a href=\"tel:87273449900\">+7 (701) 266-77-00</a></p>",
+                "<p><a href=\"tel:87019447700\">+7 (701) 944-77-00</a></p>", $content);
+            $content = str_replace(
+                "<p><a href=\"mailto:zakaz@idiamarket.kz\"> zakaz@idiamarket.kz</a></p>",
+                "<p><a href=\"mailto:shymkent@idiamarket.kz\"> shymkent@idiamarket.kz</a></p>", $content);
+            $content = str_replace("ул. Мынбаева 43 (уг. ул. между Ауезова и Манаса), 1-этаж, 050008", "ул. Мадели кожа 35/1, (уг.ул. Байтурсынова) 1-этаж, бизнес-центр BNK", $content);
             break;
     }
 

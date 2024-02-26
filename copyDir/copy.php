@@ -1,6 +1,6 @@
 <?php
 $directories = ['astana',
-//    'shimkent'
+//    'shymkent'
 ];      // Директории в которые надо скопировать
 $files = scandir(__DIR__);          // Получение списка всех файлов и поддиректорий в текущей директории
 if (empty($files)) {

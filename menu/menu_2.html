@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu №2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #222327;
+    }
+
+    .navigation {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        z-index: 9999; /* Чтобы элемент был поверх других */
+    }
+
+    .navigation ul {
+        display: flex;
+        width: 350px;
+    }
+
+    .navigation ul li {
+        list-style: none;
+        position: relative;
+        width: 70px;
+        height: 60px;
+        z-index: 2;
+    }
+
+    .navigation ul li a {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .navigation ul li a .icon {
+        position: relative;
+        display: block;
+        width: 55px;
+        height: 55px;
+        text-align: center;
+        line-height: 65px;
+        border-radius: 50%;
+        color: #1d1d27;
+        font-size: 1.5rem;
+        transition: all 0.5s;
+        transition-delay: 0s;
+    }
+
+    .navigation ul li.active a .icon {
+        background: var(---clr);
+        color: #ffffff;
+        transform: translateY(-27px);
+        transition-delay: 0.2s;
+    }
+
+    .navigation ul li a .icon::before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: var(---clr);
+        filter: blur(5px);
+        opacity: 0;
+        transition: 0.5s;
+        transition-delay: 0s;
+    }
+
+    .navigation ul li.active a .icon::before {
+
+        opacity: 0.5;
+        transition-delay: 0.2s;
+    }
+
+    .indicator {
+        position: absolute;
+        top: -35px;
+        width: 70px;
+        height: 70px;
+        background: #fff;
+        border-radius: 50%;
+        z-index: 1;
+        transition: 0.5s;
+    }
+
+    .indicator::before {
+        content: '';
+        position: absolute;
+        top: 5px;
+        left: -28px;
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        border-radius: 50%;
+        box-shadow: 15px 18px #ffff;
+
+    }
+
+    .indicator::after {
+        content: '';
+        position: absolute;
+        top: 5px;
+        right: -28px;
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        border-radius: 50%;
+        box-shadow: -15px 18px #ffff;
+
+    }
+
+    .navigation ul li:nth-child(1).active ~ .indicator {
+        transform: translateX(calc(70px * 0));
+    }
+
+    .navigation ul li:nth-child(2).active ~ .indicator {
+        transform: translateX(calc(70px * 1));
+    }
+
+    .navigation ul li:nth-child(3).active ~ .indicator {
+        transform: translateX(calc(70px * 2));
+    }
+
+    .navigation ul li:nth-child(4).active ~ .indicator {
+        transform: translateX(calc(70px * 3));
+    }
+
+    .navigation ul li:nth-child(5).active ~ .indicator {
+        transform: translateX(calc(70px * 4));
+    }
+
+    .icon img {
+        display: none;
+        width: 25px;
+    }
+</style>
+<p style="text-align: center; color: white">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium animi assumenda consequatur cum doloremque
+    doloribus ducimus esse est excepturi exercitationem, harum in iusto laboriosam magnam magni maxime officiis
+    perferendis quis quod reiciendis, repellendus rerum sapiente sit sunt tempore veniam! Ab ad aperiam at delectus
+    deserunt eius exercitationem fugiat fugit laboriosam officiis quas quibusdam quis repellat, sequi voluptatem?
+    Aliquam aliquid, animi assumenda autem beatae consequatur dolores dolorum esse eum excepturi harum inventore
+    necessitatibus nihil nobis nulla praesentium quasi quidem quis quos saepe similique sit tempore ut velit voluptatem
+    voluptates voluptatibus? Eius mollitia, optio! Dignissimos explicabo facere in odio pariatur voluptas.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus amet animi aspernatur, corporis culpa dicta
+    dolorum expedita fugiat hic id maiores, maxime minima necessitatibus neque nostrum obcaecati omnis quae quos
+    sapiente sed sequi sit suscipit tenetur ut vero voluptates. Fuga laboriosam maiores minus odio, placeat quam sint
+    vitae. Ab ad at atque aut consequatur corporis culpa cupiditate dolor dolores ea earum eligendi eos est explicabo
+    illo inventore laboriosam molestiae molestias non porro quaerat qui quidem quos reprehenderit, saepe sapiente
+    tempora tenetur totam unde voluptas. Accusamus blanditiis deserunt exercitationem fugiat iure officia optio saepe
+    tempore vel voluptas! Adipisci eius error expedita illum iure laborum molestiae, nihil non odio officiis praesentium
+    quod suscipit tempora, temporibus, totam. Consequatur cum cupiditate deserunt dolores eligendi exercitationem fuga
+    ratione sunt tempore voluptates? A adipisci aliquam assumenda aut consectetur, consequatur dolores harum impedit
+    laborum maxime mollitia nisi nostrum officia perferendis, placeat quo, soluta sunt totam unde voluptate! Alias
+    architecto commodi cumque dolore dolores enim eum exercitationem, itaque minima molestiae nobis nostrum quae
+    repellendus saepe voluptate. Ad animi autem cum deleniti ea eius eligendi eos error esse iste laborum nemo nobis,
+    pariatur quas quia quis quisquam ratione recusandae rem repudiandae tempora tenetur ullam unde ut velit vitae
+    voluptas. Architecto cupiditate dolore dolorum impedit officia tempore voluptas? Dicta eum hic laboriosam laborum
+    minus odio porro, quisquam reprehenderit repudiandae saepe. Accusamus animi aperiam architecto aut autem commodi,
+    debitis deleniti deserunt dicta dignissimos dolore dolorum error esse et eum excepturi illo inventore, ipsa ipsam
+    ipsum itaque laudantium modi necessitatibus non odio officiis optio pariatur quae quas quo sequi similique sunt
+    tenetur, ullam vel vero voluptas? Accusamus at aut beatae consectetur consequatur cumque delectus deleniti deserunt
+    exercitationem facere iure labore laborum maiores minima nemo nostrum obcaecati odit officia pariatur perferendis
+    praesentium quae quas quasi quisquam reiciendis repellendus saepe suscipit velit veritatis, vitae! Accusamus ad
+    animi architecto aspernatur atque beatae blanditiis consequatur consequuntur, culpa debitis deserunt doloremque
+    doloribus ducimus ea eligendi eveniet excepturi facere facilis illum labore laborum laudantium libero minima nam
+    nobis quibusdam quisquam ratione repellendus suscipit tempora temporibus totam veniam vero? Aliquid at autem dicta
+    distinctio doloribus inventore maiores mollitia officia placeat sint sunt totam, velit voluptatibus? Est iusto nisi
+    perspiciatis veniam voluptatem. Architecto, asperiores autem deleniti dolorem doloribus earum est et excepturi
+    explicabo facilis incidunt inventore ipsa minima molestias, necessitatibus neque omnis pariatur placeat possimus
+    quasi quidem recusandae repellat repellendus sint sit soluta sunt suscipit temporibus, veritatis voluptatem.
+    Accusantium alias blanditiis consectetur, consequuntur debitis deleniti dicta ex in itaque modi! Ducimus, eligendi
+    eos, et neque quam, qui quia quidem quod repellat sapiente tempora voluptates! Accusamus dolorum ex iure quod sed
+    tempora totam voluptas. A alias atque beatae dolores ducimus ea, exercitationem illum ipsam itaque magnam magni
+    minima natus, necessitatibus nihil nisi numquam odit officia officiis porro quae quas quasi sed sunt ut voluptas.
+    Aliquid dolorem earum eligendi, minima numquam quis vero voluptas! Animi assumenda aut commodi culpa delectus
+    doloremque dolorum, eius error est et eum id ipsa iste, laboriosam laudantium minima molestiae nam pariatur placeat
+    recusandae reiciendis rerum sed sequi voluptate voluptatum! Aperiam aspernatur consequatur corporis doloribus et
+    fugiat, in iusto laboriosam laborum magnam magni minus nobis nostrum nulla, odio quod saepe sequi temporibus velit
+    voluptas? Adipisci aspernatur id impedit ipsum laboriosam modi quaerat veritatis. Architecto at cumque eius
+    explicabo id labore laudantium maxime officia perferendis sint! Accusamus adipisci aliquid amet aspernatur commodi
+    consequatur culpa cumque cupiditate debitis dolore dolorem ea eligendi eos error excepturi expedita facere fugit id
+    labore laudantium nam natus necessitatibus nemo nihil nobis obcaecati perferendis qui quia quis quo repellendus
+    reprehenderit repudiandae saepe soluta, sunt veritatis vero. Aliquam animi aperiam aspernatur assumenda aut
+    consequuntur cupiditate eos eum fugit harum illum impedit, in iusto nobis non nostrum obcaecati optio perspiciatis
+    provident quod reiciendis rerum sequi soluta tempore velit. Aliquam atque consectetur, deleniti ducimus eius esse
+    exercitationem id in incidunt laboriosam placeat ratione recusandae repellendus! Accusamus accusantium aliquid
+    aperiam asperiores assumenda at aut commodi consequuntur distinctio dolor dolores eius eligendi facilis fugiat harum
+    impedit, ipsa ipsum labore laborum nam necessitatibus nemo, nihil nobis obcaecati, officiis pariatur perspiciatis
+    placeat possimus quos repellat repellendus sequi temporibus unde ut veritatis voluptates voluptatum. Architecto
+    commodi, culpa cupiditate deleniti doloribus eius eveniet fuga fugit harum impedit inventore iusto laboriosam nihil
+    placeat praesentium quo ratione sit tempore tenetur ullam. Ad aperiam at beatae dignissimos dolore doloremque error
+    ex fuga hic ipsum iste, itaque laboriosam laborum minus necessitatibus, nesciunt non omnis placeat quaerat quasi
+    quis rem sit! A assumenda blanditiis consequatur culpa eaque earum et harum id illum iste modi molestias mollitia
+    nemo neque nesciunt nostrum perspiciatis provident quaerat quam quasi reiciendis repudiandae sint suscipit, tempore
+    voluptatem! At corporis exercitationem nemo numquam provident reiciendis! Ad assumenda cumque dolor dolore est eum,
+    exercitationem ipsa magnam non odit pariatur placeat quidem quo repudiandae similique veniam, vero voluptas. A
+    accusamus amet atque aut autem beatae consectetur consequatur dicta eos et expedita fugiat fugit illum incidunt iste
+    laborum minus molestias nam nemo obcaecati odit recusandae reprehenderit repudiandae tenetur ullam, unde voluptas.
+    Eaque in itaque non sit. Debitis et ex, expedita facere in maxime odit quae veniam vitae. Aliquid at earum error
+    fugit id illum incidunt laboriosam molestias necessitatibus nemo nesciunt officia, veniam, voluptatem! Accusamus at
+    atque cum dignissimos ea eos esse, ex id ipsum nesciunt officia soluta, totam vitae? Accusantium aliquid, aperiam
+    culpa exercitationem in incidunt maiores molestiae necessitatibus nesciunt nihil obcaecati optio praesentium quod
+    repudiandae sed sint tempore temporibus unde velit voluptate. Accusantium ad aliquam aliquid, assumenda beatae
+    cupiditate dolorem error exercitationem illum ipsa ipsum laudantium neque nihil nulla temporibus ullam voluptate.
+    Deserunt doloribus earum itaque omnis repellat. A dicta doloremque earum et expedita, fuga hic ipsum laboriosam
+    minima nobis odit quaerat, quibusdam sint unde voluptate. Ad corporis dolorum expedita iusto nam odio quibusdam vel
+    voluptatibus? Alias beatae facere incidunt laudantium magnam molestiae quasi repellat unde vel voluptatibus!
+    Assumenda facilis ipsum itaque maiores molestiae necessitatibus quidem similique, suscipit veniam voluptatum?
+    Adipisci dignissimos distinctio molestias officiis optio, sunt tenetur! Ab accusamus aut debitis eaque earum enim
+    facilis itaque laborum, libero provident quo ratione saepe soluta temporibus unde voluptas.
+</p>
+<div class="navigation">
+    <ul>
+        <li class="list active" style="---clr:#4aff2c">
+            <a href="#">
+                <span class="icon">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+            </a>
+        </li>
+        <li class="list" style="---clr:#0935cc">
+            <a href="#">
+                <span class="icon">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+            </a>
+        </li>
+        <li class="list" style="---clr:#9742c9">
+            <a href="#">
+                <span class="icon">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+            </a>
+        </li>
+        <li class="list" style="---clr:#fffd87">
+            <a href="#">
+                <span class="icon">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+            </a>
+        </li>
+        <li class="list" style="---clr:#6b4000">
+            <a href="#">
+                <span class="icon">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </span>
+            </a>
+        </li>
+        <div class="indicator"></div>
+    </ul>
+
+
+    <script>
+        const list = document.querySelectorAll('.list');
+
+        function activeLink() {
+            list.forEach((item) =>
+                item.classList.remove('active'));
+            this.classList.add('active')
+        }
+
+        list.forEach((item) =>
+            item.addEventListener('click', activeLink));
+    </script>
+</div>
+
+
+</body>
+</html>

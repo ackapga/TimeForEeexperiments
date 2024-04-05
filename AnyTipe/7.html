@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<style>
+    .logo_animation_block {
+        position: relative;
+        width:212px;
+        margin-bottom: 12px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between
+    }
+
+    .logo_animation_one {
+        display: flex;
+        flex-shrink: 0;
+        align-items: flex-end;
+        transition:transform 1s;
+        animation: logo_animation_one_infinite 4s cubic-bezier(1,0,0,1) 0s infinite alternate
+    }
+    @keyframes logo_animation_one_infinite {
+        0%,25% {
+            transform: translateX(0)
+        }
+
+        75%,to {
+            transform: translateX(78px)
+        }
+    }
+    
+    .logo_animation_one_in_one {
+        flex-shrink: 0;
+        max-width: 25px;
+        min-height: 24px;
+        animation:logo_animation_one_one_infinite 4s cubic-bezier(1,.01,0,1.12) 0s infinite normal
+    }
+    @keyframes logo_animation_one_one_infinite {
+        0% {
+            transform: rotateY(0)
+        }
+
+        to {
+            transform: rotateY(1turn)
+        }
+    }
+    
+    .logo_animation_two {
+        max-width: 145px;
+        min-height: 17px;
+        animation: logo_animation_two_infinite 4s cubic-bezier(.34,.31,.45,1.43) 0s infinite alternate
+    }
+    @keyframes logo_animation_two_infinite {
+        0% {
+            opacity: 1
+        }
+
+        to {
+            opacity: 0
+        }
+    }
+    
+    .logo_animation_three {
+        max-width: 33px;
+        animation:logo_animation_three_infinite 4s cubic-bezier(1,0,0,1) 0s infinite alternate
+    }
+    @keyframes logo_animation_three_infinite {
+        0%,25% {
+            transform: translateX(0)
+        }
+
+        75%,to {
+            transform: translateX(-77px)
+        }
+    }
+    
+</style>
+
+<a href="/index.html">
+    <div class="logo_animation_block">
+        <div class="logo_animation_one">
+            <img src="/ackapga/logo_dom.svg" alt="house" class="logo_animation_one_in_one">
+        </div>
+        <img src="/ackapga/logo_technodom.svg" alt="technodom" class="logo_animation_two">
+        <img src="/ackapga/logo_kz.svg" alt="kz" class="logo_animation_three">
+    </div>
+</a>
+
+<style>
+    .wrapper_header {
+        background-color: black;
+    }
+    .wrapper_header .logo a {
+        font-family: "Demonde";
+        display: flex;
+        align-items: center;
+        font-weight: 300;
+        color: #f5f5f5;
+        letter-spacing: -1px;
+        font-size: 2.5em;
+        position: relative;
+        transition: all 0.2s;
+        padding: 5px 7px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .wrapper_header .logo a span {
+        display: flex;
+        align-items: center;
+        height: 45px;
+        color: #000;
+        font-weight: bold;
+        background: #ffb900;
+        padding: 0 12px;
+        margin-right: 2px;
+        animation: logoASpanSlideAndOpacity 4s cubic-bezier(0.34,0.31,0.45,1.43) 0s infinite alternate;
+    }
+    @keyframes logoASpanSlideAndOpacity {
+        0%,25% {
+            opacity: 0;
+            transform: translateX(60px);
+        }
+        75%,to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .wrapper_header .logo a p {
+        animation: logoASpanPGrUp 4s cubic-bezier(0.53,0.31,0.45,1.43) 0s infinite alternate;
+    }
+    @keyframes logoASpanPGrUp {
+        0%,25% {
+            opacity: 0;
+            transform: translateX(-40px)
+        }
+        75%,to {
+            opacity: 1;
+            transform: translateX(0)
+        }
+    }
+
+    .wrapper_header .logo a img {
+        width: 2.5rem;
+        margin: 0 1px;
+        transition:transform 1s;
+        animation: logoAImgSlideRotate 4s cubic-bezier(0.34,0.31,0.45,1.43) 0s infinite alternate;
+
+    }
+    @keyframes logoAImgSlideRotate {
+        0%,25% {
+            transform: translateX(-50px) rotateY(1turn)
+        }
+        75%,to {
+            transform: translateX(0) rotateY(0)
+        }
+    }
+
+
+
+</style>
+
+<div class="wrapper_header">
+    <div class="logo">
+        <a href="/index.html">
+            <span>Soft</span>
+            <p>Gr</p>
+            <img src="/images/header/globs.webp" alt="logo">
+            <p>up</p>
+        </a>
+    </div>
+</div>
+
+</body>
+</html>

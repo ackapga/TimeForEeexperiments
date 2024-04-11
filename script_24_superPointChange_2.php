@@ -7,7 +7,6 @@ $directories = [
 
 $filesToChange = [
     "example.html",
-
 ];
 
 foreach ($directories as $dir) {
@@ -47,6 +46,10 @@ function changeNameCityAndHeaderFooter($fileWhichChange, $location)
 
     switch ($location) {
         case 'almaty':
+            // Title | Description
+            $content = changeTitleDisc('в Алматы', '|', $content);
+            $content = changeTitleDisc('Алматы', '|', $content);
+            $content = changeTitleDisc('алматы', '|', $content);
             break;
 
         case 'nursultan':

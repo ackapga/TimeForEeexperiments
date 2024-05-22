@@ -1,4 +1,4 @@
-<?php
+yf<?php
 // --------------------------------------------------
 
 echo "START BOOTSTRAP <br>" . PHP_EOL;

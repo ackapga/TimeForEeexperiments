@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTreeColorHighlighter">
+    <files>
+      <node color="8" path="$PROJECT_DIR$/.gitignore" />
+      <node color="8" path="$PROJECT_DIR$/.htaccess" />
+      <node color="4" path="$PROJECT_DIR$/1c.html" />
+      <node color="1" path="$PROJECT_DIR$/about.html" />
+      <node color="5" path="$PROJECT_DIR$/account.html" />
+      <node color="4" path="$PROJECT_DIR$/accounting.html" />
+      <node color="9" path="$PROJECT_DIR$/acoustomagnetic.php" />
+      <node color="9" path="$PROJECT_DIR$/acoustomagnetic_bottle.php" />
+      <node color="9" path="$PROJECT_DIR$/acoustomagnetic_deactivator.php" />
+      <node color="9" path="$PROJECT_DIR$/acoustomagnetic_label.php" />
+      <node color="9" path="$PROJECT_DIR$/acoustomagnetic_tag.php" />
+      <node color="7" path="$PROJECT_DIR$/aktau/reciept-58mm.html" />
+      <node color="7" path="$PROJECT_DIR$/aktau/reciept-80mm.html" />
+      <node color="5" path="$PROJECT_DIR$/apteka.html" />
+      <node color="1" path="$PROJECT_DIR$/automation.html" />
+      <node color="2" path="$PROJECT_DIR$/banknotes.html" />
+      <node color="3" path="$PROJECT_DIR$/banknotes_counter.html" />
+      <node color="3" path="$PROJECT_DIR$/banknotes_detector.html" />
+      <node color="3" path="$PROJECT_DIR$/banknotes_schetchiki.html" />
+      <node color="8" path="$PROJECT_DIR$/cache.manifest" />
+      <node color="5" path="$PROJECT_DIR$/cafe.html" />
+      <node color="5" path="$PROJECT_DIR$/clothes.html" />
+      <node color="7" path="$PROJECT_DIR$/comfort-dc.php" />
+      <node color="2" path="$PROJECT_DIR$/computer.html" />
+      <node color="3" path="$PROJECT_DIR$/computer_block.html" />
+      <node color="3" path="$PROJECT_DIR$/computer_chair.html" />
+      <node color="3" path="$PROJECT_DIR$/computer_periferiya.html" />
+      <node color="1" path="$PROJECT_DIR$/contact.html" />
+      <node color="6" path="$PROJECT_DIR$/contact_almaty.html" />
+      <node color="6" path="$PROJECT_DIR$/contact_astana.html" />
+      <node color="6" path="$PROJECT_DIR$/contact_shymkent.html" />
+      <node color="5" path="$PROJECT_DIR$/cosmetic.html" />
+      <node color="7" path="$PROJECT_DIR$/css/bootstrap.min2.css" />
+      <node color="7" path="$PROJECT_DIR$/css/jqcart.css" />
+      <node color="7" path="$PROJECT_DIR$/css/jquery-ui.css" />
+      <node color="7" path="$PROJECT_DIR$/css/jquery.bxslider1.css" />
+      <node color="7" path="$PROJECT_DIR$/css/stylePrev.css" />
+      <node color="7" path="$PROJECT_DIR$/css/team.css" />
+      <node color="3" path="$PROJECT_DIR$/detector.html" />
+      <node color="2" path="$PROJECT_DIR$/eas.html" />
+      <node color="3" path="$PROJECT_DIR$/eas_magnetic.html" />
+      <node color="3" path="$PROJECT_DIR$/eas_radio.html" />
+      <node color="8" path="$PROJECT_DIR$/err404.html" />
+      <node color="5" path="$PROJECT_DIR$/fast-food.html" />
+      <node color="7" path="$PROJECT_DIR$/glory-dc-pro.php" />
+      <node color="7" path="$PROJECT_DIR$/glory-dc.php" />
+      <node color="8" path="$PROJECT_DIR$/google09299df6d0846cd3.html" />
+      <node color="8" path="$PROJECT_DIR$/google72477c747431f35f.html" />
+      <node color="8" path="$PROJECT_DIR$/googlea763be83c8900889.html" />
+      <node color="7" path="$PROJECT_DIR$/hi-tech-dc-pro.php" />
+      <node color="7" path="$PROJECT_DIR$/hi-tech-dc.php" />
+      <node color="7" path="$PROJECT_DIR$/hi-tech-pro.php" />
+      <node color="7" path="$PROJECT_DIR$/hi-tech.php" />
+      <node color="1" path="$PROJECT_DIR$/index.html" />
+      <node color="7" path="$PROJECT_DIR$/js/bootstrap.min.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jqcart.min.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jquery-1.10.2.min.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jquery-1.11.0.min.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jquery-2.2.3.min.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jquery.bxslider.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jquery.bxslider1.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jquery.countup.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jquery.glide.min.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jquery.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jquery.maskedinput-1.2.2.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jquery.maskedinput.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jquery.mycart.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jquery.mycart.min.js" />
+      <node color="7" path="$PROJECT_DIR$/js/jquery.waypoints.min.js" />
+      <node color="7" path="$PROJECT_DIR$/js/minicart.min.js" />
+      <node color="7" path="$PROJECT_DIR$/js/probel.js" />
+      <node color="7" path="$PROJECT_DIR$/js/products/printers2.js" />
+      <node color="7" path="$PROJECT_DIR$/js/products/printers3.js" />
+      <node color="3" path="$PROJECT_DIR$/label.html" />
+      <node color="9" path="$PROJECT_DIR$/label_2408d.php" />
+      <node color="7" path="$PROJECT_DIR$/label_3120t.html" />
+      <node color="9" path="$PROJECT_DIR$/label_3120t.php" />
+      <node color="10" path="$PROJECT_DIR$/label_3120tl.php" />
+      <node color="9" path="$PROJECT_DIR$/label_3120tub.php" />
+      <node color="9" path="$PROJECT_DIR$/label_3120tuc.php" />
+      <node color="7" path="$PROJECT_DIR$/label_rp80.html" />
+      <node color="10" path="$PROJECT_DIR$/label_rp80.php" />
+      <node color="4" path="$PROJECT_DIR$/magner_100.php" />
+      <node color="3" path="$PROJECT_DIR$/magnetic.html" />
+      <node color="5" path="$PROJECT_DIR$/market.html" />
+      <node color="7" path="$PROJECT_DIR$/monoblock-belyi.html" />
+      <node color="7" path="$PROJECT_DIR$/monoblock-chernyi.html" />
+      <node color="7" path="$PROJECT_DIR$/monoblock-emkostniye.html" />
+      <node color="7" path="$PROJECT_DIR$/monoblock-rezistivniye.html" />
+      <node color="3" path="$PROJECT_DIR$/monoblock.html" />
+      <node color="4" path="$PROJECT_DIR$/pharmacy.html" />
+      <node color="6" path="$PROJECT_DIR$/pismo.php" />
+      <node color="2" path="$PROJECT_DIR$/pos.html" />
+      <node color="7" path="$PROJECT_DIR$/pos_376.html" />
+      <node color="7" path="$PROJECT_DIR$/pos_3050.html" />
+      <node color="7" path="$PROJECT_DIR$/pos_3050.php" />
+      <node color="7" path="$PROJECT_DIR$/pos_3071.html" />
+      <node color="7" path="$PROJECT_DIR$/pos_3071.php" />
+      <node color="7" path="$PROJECT_DIR$/pos_3072.html" />
+      <node color="7" path="$PROJECT_DIR$/pos_a1.html" />
+      <node color="7" path="$PROJECT_DIR$/pos_a1.php" />
+      <node color="3" path="$PROJECT_DIR$/pos_accessories.html" />
+      <node color="3" path="$PROJECT_DIR$/pos_monoblock.html" />
+      <node color="3" path="$PROJECT_DIR$/pos_system.html" />
+      <node color="7" path="$PROJECT_DIR$/pos_t3.html" />
+      <node color="7" path="$PROJECT_DIR$/pos_t6.html" />
+      <node color="7" path="$PROJECT_DIR$/pos_td_30.html" />
+      <node color="7" path="$PROJECT_DIR$/pos_td_30.php" />
+      <node color="8" path="$PROJECT_DIR$/post-email.php" />
+      <node color="8" path="$PROJECT_DIR$/post-email_admin.php" />
+      <node color="8" path="$PROJECT_DIR$/post-email_astana.php" />
+      <node color="7" path="$PROJECT_DIR$/prestige-dc.php" />
+      <node color="7" path="$PROJECT_DIR$/prime-dc.php" />
+      <node color="2" path="$PROJECT_DIR$/printer.html" />
+      <node color="3" path="$PROJECT_DIR$/printer_label.html" />
+      <node color="3" path="$PROJECT_DIR$/printer_receipt.html" />
+      <node color="5" path="$PROJECT_DIR$/production.html" />
+      <node color="1" path="$PROJECT_DIR$/products.html" />
+      <node color="1" path="$PROJECT_DIR$/programs.html" />
+      <node color="4" path="$PROJECT_DIR$/r_keeper.html" />
+      <node color="4" path="$PROJECT_DIR$/r_keeper_cafe.html" />
+      <node color="4" path="$PROJECT_DIR$/r_keeper_fast.html" />
+      <node color="3" path="$PROJECT_DIR$/radio.html" />
+      <node color="9" path="$PROJECT_DIR$/radio_bottle.php" />
+      <node color="9" path="$PROJECT_DIR$/radio_deactivator.php" />
+      <node color="9" path="$PROJECT_DIR$/radio_frequency.php" />
+      <node color="9" path="$PROJECT_DIR$/radio_golf.php" />
+      <node color="9" path="$PROJECT_DIR$/radio_label.php" />
+      <node color="9" path="$PROJECT_DIR$/radio_loop.php" />
+      <node color="9" path="$PROJECT_DIR$/radio_mini_square.php" />
+      <node color="9" path="$PROJECT_DIR$/radio_puller_universal.php" />
+      <node color="8" path="$PROJECT_DIR$/README.md" />
+      <node color="8" path="$PROJECT_DIR$/recaptchalib.php" />
+      <node color="3" path="$PROJECT_DIR$/receipt.html" />
+      <node color="7" path="$PROJECT_DIR$/reciept-58mm.html" />
+      <node color="7" path="$PROJECT_DIR$/reciept-80mm.html" />
+      <node color="5" path="$PROJECT_DIR$/restaurant.html" />
+      <node color="1" path="$PROJECT_DIR$/reviews.php" />
+      <node color="8" path="$PROJECT_DIR$/robots.txt" />
+      <node color="2" path="$PROJECT_DIR$/scale.html" />
+      <node color="7" path="$PROJECT_DIR$/scale_a6.html" />
+      <node color="7" path="$PROJECT_DIR$/scale_a6.php" />
+      <node color="3" path="$PROJECT_DIR$/scale_none.html" />
+      <node color="7" path="$PROJECT_DIR$/scale_tbs_aruew_rs.php" />
+      <node color="7" path="$PROJECT_DIR$/scale_tm30.html" />
+      <node color="3" path="$PROJECT_DIR$/scale_with.html" />
+      <node color="2" path="$PROJECT_DIR$/scanner.html" />
+      <node color="2" path="$PROJECT_DIR$/scanner_1200.php" />
+      <node color="2" path="$PROJECT_DIR$/scanner_1695.php" />
+      <node color="2" path="$PROJECT_DIR$/scanner_7120.php" />
+      <node color="2" path="$PROJECT_DIR$/scanner_8120.php" />
+      <node color="2" path="$PROJECT_DIR$/scanner_9120.php" />
+      <node color="2" path="$PROJECT_DIR$/scanner_9125.php" />
+      <node color="3" path="$PROJECT_DIR$/scanner_desktop.html" />
+      <node color="3" path="$PROJECT_DIR$/scanner_hand.html" />
+      <node color="3" path="$PROJECT_DIR$/schetchiki.html" />
+      <node color="8" path="$PROJECT_DIR$/search.html" />
+      <node color="8" path="$PROJECT_DIR$/send.php" />
+      <node color="5" path="$PROJECT_DIR$/shop.html" />
+      <node color="8" path="$PROJECT_DIR$/sitemap.xml" />
+      <node color="5" path="$PROJECT_DIR$/sklad.html" />
+      <node color="7" path="$PROJECT_DIR$/slim-dc-pro.php" />
+      <node color="7" path="$PROJECT_DIR$/slim-dc.php" />
+      <node color="7" path="$PROJECT_DIR$/slim-pro.php" />
+      <node color="7" path="$PROJECT_DIR$/slim.php" />
+      <node color="4" path="$PROJECT_DIR$/storehouse.html" />
+      <node color="3" path="$PROJECT_DIR$/stulya_kresla.html" />
+      <node color="2" path="$PROJECT_DIR$/terminal.html" />
+      <node color="9" path="$PROJECT_DIR$/terminal_scan_pal_eda_50.php" />
+      <node color="7" path="$PROJECT_DIR$/thermalprinter_58_zl_01.html" />
+      <node color="10" path="$PROJECT_DIR$/thermalprinter_58_zl_01.php" />
+      <node color="10" path="$PROJECT_DIR$/thermalprinter_58A.php" />
+      <node color="10" path="$PROJECT_DIR$/thermalprinter_58B.php" />
+      <node color="9" path="$PROJECT_DIR$/thermalprinter_58E.php" />
+      <node color="7" path="$PROJECT_DIR$/thermalprinter_220k.html" />
+      <node color="10" path="$PROJECT_DIR$/thermalprinter_220k.php" />
+      <node color="7" path="$PROJECT_DIR$/thermalprinter_5802.html" />
+      <node color="9" path="$PROJECT_DIR$/thermalprinter_5802.php" />
+      <node color="7" path="$PROJECT_DIR$/thermalprinter_5803.html" />
+      <node color="10" path="$PROJECT_DIR$/thermalprinter_5803.php" />
+      <node color="10" path="$PROJECT_DIR$/thermalprinter_5860.php" />
+      <node color="7" path="$PROJECT_DIR$/thermalprinter_8030.html" />
+      <node color="10" path="$PROJECT_DIR$/thermalprinter_8030.php" />
+      <node color="7" path="$PROJECT_DIR$/thermalprinter_8250.html" />
+      <node color="10" path="$PROJECT_DIR$/thermalprinter_8250.php" />
+      <node color="7" path="$PROJECT_DIR$/thermalprinter_8251.html" />
+      <node color="10" path="$PROJECT_DIR$/thermalprinter_8251.php" />
+      <node color="9" path="$PROJECT_DIR$/thermalprinter_8256.php" />
+      <node color="7" path="$PROJECT_DIR$/thermalprinter_8320.html" />
+      <node color="10" path="$PROJECT_DIR$/thermalprinter_8320.php" />
+      <node color="9" path="$PROJECT_DIR$/thermalprinter_RP326.php" />
+      <node color="9" path="$PROJECT_DIR$/thermalprinter_RP328.php" />
+      <node color="2" path="$PROJECT_DIR$/till.html" />
+      <node color="9" path="$PROJECT_DIR$/till_170.php" />
+      <node color="7" path="$PROJECT_DIR$/till_405a.html" />
+      <node color="9" path="$PROJECT_DIR$/till_405a.php" />
+      <node color="6" path="$PROJECT_DIR$/till_410b.html" />
+      <node color="9" path="$PROJECT_DIR$/till_410b.php" />
+      <node color="4" path="$PROJECT_DIR$/trade.html" />
+      <node color="4" path="$PROJECT_DIR$/umag_cosmetics.html" />
+      <node color="4" path="$PROJECT_DIR$/umag_magazin.html" />
+      <node color="4" path="$PROJECT_DIR$/umag_odejda.html" />
+      <node color="4" path="$PROJECT_DIR$/umag_pharmacy.html" />
+      <node color="1" path="$PROJECT_DIR$/uslugi.html" />
+      <node color="6" path="$PROJECT_DIR$/zakaz.php" />
+      <node color="6" path="$PROJECT_DIR$/zakaz_astana.php" />
+      <node color="7" path="$PROJECT_DIR$/zayavka.html" />
+    </files>
+    <colors>
+      <color id="1" value="#eb69004e" name="Main" enabled="true" />
+      <color id="2" value="#7a006a81" name="Category" enabled="true" />
+      <color id="3" value="#45003a4e" name="SubCategory" enabled="true" />
+      <color id="4" value="#005f5de6" name="Programs" enabled="true" />
+      <color id="5" value="#0aff000d" name="Automation" enabled="true" />
+      <color id="6" value="#0e009b1b" name="Contact" enabled="true" />
+      <color id="7" value="#ff170068" name="Delete" enabled="true" />
+      <color id="8" value="#000000da" name="System" enabled="true" />
+      <color id="9" value="#35fcff0d" name="Have" enabled="true" />
+      <color id="10" value="#ff001713" name="Don`t have" enabled="true" />
+      <color id="11" name="Color 11" />
+      <color id="12" name="Color 12" />
+      <color id="13" name="Color 13" />
+      <color id="14" name="Color 14" />
+      <color id="15" name="Color 15" />
+      <color id="16" name="Color 16" />
+    </colors>
+    <option name="marksForCollapsedHighlights" value="Dots" />
+  </component>
+</project>

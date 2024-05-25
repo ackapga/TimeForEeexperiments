@@ -1,0 +1,26 @@
+        <span class="hndc__name">Шымкент</span>
+                            <span class="hndc__arrow"></span>
+                            <span class="hndc__number">
+                                <a href="tel:87252399900" class=""> &nbsp; 8 (7252) <span>39-99-00</span></a>
+                            </span>
+
+
+
+
+                            <a href="tel:87252399900"> &nbsp; 8 (7252) <span>39-99-00</span></a>
+
+
+
+
+                            <span class="hndc__name">Астана</span>
+                            <span class="hndc__arrow"></span>
+                            <span class="hndc__number">
+                                <a href="tel:87172279900"> &nbsp; 8 (7172) <span>27-99-00</span></a>
+                            </span>
+
+
+                            <span class="hndc__name">Шымкент</span>
+                            <span class="hndc__arrow"></span>
+                            <span class="hndc__number">
+                                 <a href="tel:87252399900"> &nbsp; 8 (7252) <span>39-99-00</span></a>
+                            </span>

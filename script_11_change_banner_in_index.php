@@ -22,7 +22,7 @@ $directories = [
     'ust-kamenogorsk',
 ];
 $originalFiles = [
-    'index.html',
+    'two.html',
 ];
 
 foreach ($directories as $directory) {

@@ -739,7 +739,7 @@ function changeHeaderFooterAstana($fileContent)
                 </div>
                 <div class="footer_mobile_block__text">
                     <ul class="footer_mobile_block__content">
-                        <li><a class="footer_trans_title" href="index.html">Главная</a></li>
+                        <li><a class="footer_trans_title" href="two.html">Главная</a></li>
                         <li><a class="footer_trans_title" href="products.html">Оборудование</a></li>
                         <li><a class="footer_trans_title" href="programs.html">Программы</a></li>
                         <li><a class="footer_trans_title" href="automation.html">Автоматизация</a></li>
@@ -826,7 +826,7 @@ function changeHeaderFooterAstana($fileContent)
                 </div>
                 <div class="footer_mobile_block__text">
                     <ul class="footer_mobile_block__content">
-                        <li><a class="footer_trans_title" href="index.html">Главная</a></li>
+                        <li><a class="footer_trans_title" href="two.html">Главная</a></li>
                         <li><a class="footer_trans_title" href="products.html">Оборудование</a></li>
                         <li><a class="footer_trans_title" href="programs.html">Программы</a></li>
                         <li><a class="footer_trans_title" href="automation.html">Автоматизация</a></li>
@@ -911,7 +911,7 @@ function changeHeaderFooterAstana($fileContent)
         '<div class="footer_desktop_block">
             <div class="footer_contact_container">
                 <div class="footer_nav_logo">
-                    <a href="index.html">
+                    <a href="two.html">
                         <span>Soft</span>Gr<img src="/images/globe1.png" alt="logo">up
                     </a>
                 </div>
@@ -954,7 +954,7 @@ function changeHeaderFooterAstana($fileContent)
             <div class="footer_links_container">
                 <div class="footer_links_container_column">
                     <div class="footer_link_subtitle">
-                        <a href="index.html">Главная</a>
+                        <a href="two.html">Главная</a>
                     </div>
                     <ul class="footer_link_list">
                         <li><a href="products.html">Оборудование</a></li>
@@ -999,7 +999,7 @@ function changeHeaderFooterAstana($fileContent)
         '<div class="footer_desktop_block">
             <div class="footer_contact_container">
                 <div class="footer_nav_logo">
-                    <a href="index.html">
+                    <a href="two.html">
                         <span>Soft</span>Gr<img src="/images/globe1.png" alt="logo">up
                     </a>
                 </div>
@@ -1042,7 +1042,7 @@ function changeHeaderFooterAstana($fileContent)
             <div class="footer_links_container">
                 <div class="footer_links_container_column">
                     <div class="footer_link_subtitle">
-                        <a href="index.html">Главная</a>
+                        <a href="two.html">Главная</a>
                     </div>
                     <ul class="footer_link_list">
                         <li><a href="products.html">Оборудование</a></li>
@@ -1422,7 +1422,7 @@ function changeHeaderFooterShymkent($fileContent)
                 </div>
                 <div class="footer_mobile_block__text">
                     <ul class="footer_mobile_block__content">
-                        <li><a class="footer_trans_title" href="index.html">Главная</a></li>
+                        <li><a class="footer_trans_title" href="two.html">Главная</a></li>
                         <li><a class="footer_trans_title" href="products.html">Оборудование</a></li>
                         <li><a class="footer_trans_title" href="programs.html">Программы</a></li>
                         <li><a class="footer_trans_title" href="automation.html">Автоматизация</a></li>
@@ -1509,7 +1509,7 @@ function changeHeaderFooterShymkent($fileContent)
                 </div>
                 <div class="footer_mobile_block__text">
                     <ul class="footer_mobile_block__content">
-                        <li><a class="footer_trans_title" href="index.html">Главная</a></li>
+                        <li><a class="footer_trans_title" href="two.html">Главная</a></li>
                         <li><a class="footer_trans_title" href="products.html">Оборудование</a></li>
                         <li><a class="footer_trans_title" href="programs.html">Программы</a></li>
                         <li><a class="footer_trans_title" href="automation.html">Автоматизация</a></li>
@@ -1594,7 +1594,7 @@ function changeHeaderFooterShymkent($fileContent)
         '<div class="footer_desktop_block">
             <div class="footer_contact_container">
                 <div class="footer_nav_logo">
-                    <a href="index.html">
+                    <a href="two.html">
                         <span>Soft</span>Gr<img src="/images/globe1.png" alt="logo">up
                     </a>
                 </div>
@@ -1637,7 +1637,7 @@ function changeHeaderFooterShymkent($fileContent)
             <div class="footer_links_container">
                 <div class="footer_links_container_column">
                     <div class="footer_link_subtitle">
-                        <a href="index.html">Главная</a>
+                        <a href="two.html">Главная</a>
                     </div>
                     <ul class="footer_link_list">
                         <li><a href="products.html">Оборудование</a></li>
@@ -1682,7 +1682,7 @@ function changeHeaderFooterShymkent($fileContent)
         '<div class="footer_desktop_block">
             <div class="footer_contact_container">
                 <div class="footer_nav_logo">
-                    <a href="index.html">
+                    <a href="two.html">
                         <span>Soft</span>Gr<img src="/images/globe1.png" alt="logo">up
                     </a>
                 </div>
@@ -1725,7 +1725,7 @@ function changeHeaderFooterShymkent($fileContent)
             <div class="footer_links_container">
                 <div class="footer_links_container_column">
                     <div class="footer_link_subtitle">
-                        <a href="index.html">Главная</a>
+                        <a href="two.html">Главная</a>
                     </div>
                     <ul class="footer_link_list">
                         <li><a href="products.html">Оборудование</a></li>

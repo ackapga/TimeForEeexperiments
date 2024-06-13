@@ -45,7 +45,7 @@ echo "END BOOTSTRAP <br>" . PHP_EOL;
 echo "START MAIN CHANGE <br>" . PHP_EOL;
 
 $filesIP = [
-    'index.html',
+    'two.html',
     'products.html',
 ];
 

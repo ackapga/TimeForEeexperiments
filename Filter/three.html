@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Price Range Slider | CodingNepal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Import Google Font - Poppins */
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+      .__filter_column_item_slider{
+        width: 400px;
+        background: #fff;
+        border-radius: 10px;
+        padding: 20px 25px 40px;
+        box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+      }
+      header h2{
+        font-size: 24px;
+        font-weight: 600;
+      }
+      header p{
+        margin-top: 5px;
+        font-size: 16px;
+      }
+      .price-input{
+        width: 100%;
+        display: flex;
+        margin: 30px 0 35px;
+      }
+      .price-input .field{
+        display: flex;
+        width: 100%;
+        height: 45px;
+        align-items: center;
+      }
+      .field input{
+        width: 100%;
+        height: 100%;
+        outline: none;
+        font-size: 19px;
+        margin-left: 12px;
+        border-radius: 5px;
+        text-align: center;
+        border: 1px solid #999;
+        -moz-appearance: textfield;
+      }
+      input[type="number"]::-webkit-outer-spin-button,
+      input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+      }
+      .price-input .separator{
+        width: 130px;
+        display: flex;
+        font-size: 19px;
+        align-items: center;
+        justify-content: center;
+      }
+      .slider{
+        height: 5px;
+        position: relative;
+        background: #ddd;
+        border-radius: 5px;
+      }
+      .slider .progress{
+        height: 100%;
+        left: 0%;
+        right: 0%;
+        position: absolute;
+        border-radius: 5px;
+        background: #17A2B8;
+      }
+      .range-input{
+        position: relative;
+      }
+      .range-input input{
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        top: -5px;
+        background: none;
+        pointer-events: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+      }
+      input[type="range"]::-webkit-slider-thumb{
+        height: 17px;
+        width: 17px;
+        border-radius: 50%;
+        background: #17A2B8;
+        pointer-events: auto;
+        -webkit-appearance: none;
+        box-shadow: 0 0 6px rgba(0,0,0,0.05);
+      }
+      input[type="range"]::-moz-range-thumb{
+        height: 17px;
+        width: 17px;
+        border: none;
+        border-radius: 50%;
+        background: #17A2B8;
+        pointer-events: auto;
+        -moz-appearance: none;
+        box-shadow: 0 0 6px rgba(0,0,0,0.05);
+      }
+    </style>
+  </head>
+  <body>
+  <div class="__filter_column_item_slider">
+    <span>Охлаждаемый объём: (л)</span>
+
+    <div class="price-input">
+      <div class="field">
+        <span>от</span>
+        <input type="number" class="input-min" value="170">
+      </div>
+      <div class="separator">-</div>
+      <div class="field">
+        <span>до</span>
+        <input type="number" class="input-max" value="660">
+      </div>
+    </div>
+
+    <div class="slider">
+      <div class="progress"></div>
+    </div>
+
+    <div class="range-input">
+      <input type="range" class="range-min" min="0" max="19" value="0">
+      <input type="range" class="range-max" min="0" max="19" value="19">
+    </div>
+  </div>
+
+  <script>
+    const values = [170, 205, 235, 240, 260, 310, 319, 335, 380, 398, 410, 450, 485, 490, 520, 565, 572, 590, 640, 660];
+    const rangeInput = document.querySelectorAll(".range-input input");
+    const priceInput = document.querySelectorAll(".price-input input");
+    const range = document.querySelector(".slider .progress");
+
+
+    function updateValues() {
+      const minIndex = parseInt(rangeInput[0].value);
+      const maxIndex = parseInt(rangeInput[1].value);
+      const rangeValues = values
+              .slice(minIndex, maxIndex + 1)
+              .map(value => value.toString());
+      console.log(rangeValues);
+    }
+
+    priceInput.forEach(input => {
+      input.addEventListener("input", e => {
+        let minPrice = parseInt(priceInput[0].value),
+                maxPrice = parseInt(priceInput[1].value);
+
+        if ((maxPrice - minPrice) && values.includes(maxPrice) && values.includes(minPrice)) {
+          if (e.target.className === "input-min") {
+            rangeInput[0].value = values.indexOf(minPrice);
+            range.style.left = ((values.indexOf(minPrice) / (values.length - 1)) * 100) + "%";
+          } else {
+            rangeInput[1].value = values.indexOf(maxPrice);
+            range.style.right = 100 - ((values.indexOf(maxPrice) / (values.length - 1)) * 100) + "%";
+          }
+        }
+      });
+    });
+
+    rangeInput.forEach(input => {
+      input.addEventListener("input", e => {
+        let minIndex = parseInt(rangeInput[0].value),
+                maxIndex = parseInt(rangeInput[1].value);
+        priceInput[0].value = values[minIndex];
+        priceInput[1].value = values[maxIndex];
+        range.style.left = ((minIndex / (values.length - 1)) * 100) + "%";
+        range.style.right = 100 - ((maxIndex / (values.length - 1)) * 100) + "%";
+      });
+
+      input.addEventListener("change", e => {
+        updateValues();
+      });
+    });
+  </script>
+
+  </body>
+</html>

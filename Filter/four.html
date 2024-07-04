@@ -148,44 +148,43 @@
     </div>
 
     <script>
-      const rangeInput = document.querySelectorAll(".range-input input");
-      const priceInput = document.querySelectorAll(".price-input input");
-      const range = document.querySelector(".slider .progress");
-      let priceGap = 1000;
+      const priceInput = document.querySelectorAll('.__price_input input');
+      const rangeInput = document.querySelectorAll('.__range_input input');
+      const range = document.querySelector('.__slider .__progress');
 
-      priceInput.forEach(input =>{
-        input.addEventListener("input", e =>{
+      priceInput.forEach(input => {
+        input.addEventListener('input', e => {
           let minPrice = parseInt(priceInput[0].value),
                   maxPrice = parseInt(priceInput[1].value);
 
-          if((maxPrice - minPrice >= priceGap) && maxPrice <= rangeInput[1].max){
-            if(e.target.className === "input-min"){
+          if ((maxPrice - minPrice >= priceGap) && maxPrice <= rangeInput[1].max) {
+            if (e.target.classList.contains('__input_min')) {
               rangeInput[0].value = minPrice;
-              range.style.left = ((minPrice / rangeInput[0].max) * 100) + "%";
-            }else{
+              range.style.left = ((minPrice / rangeInput[0].max) * 100) + '%';
+            } else {
               rangeInput[1].value = maxPrice;
-              range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
+              range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + '%';
             }
           }
         });
       });
 
-      rangeInput.forEach(input =>{
-        input.addEventListener("input", e =>{
+      rangeInput.forEach(input => {
+        input.addEventListener('input', e => {
           let minVal = parseInt(rangeInput[0].value),
                   maxVal = parseInt(rangeInput[1].value);
 
-          if((maxVal - minVal) < priceGap){
-            if(e.target.className === "range-min"){
-              rangeInput[0].value = maxVal - priceGap
-            }else{
+          if ((maxVal - minVal) < priceGap) {
+            if (e.target.classList.contains('__range_min')) {
+              rangeInput[0].value = maxVal - priceGap;
+            } else {
               rangeInput[1].value = minVal + priceGap;
             }
-          }else{
+          } else {
             priceInput[0].value = minVal;
             priceInput[1].value = maxVal;
-            range.style.left = ((minVal / rangeInput[0].max) * 100) + "%";
-            range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
+            range.style.left = ((minVal / rangeInput[0].max) * 100) + '%';
+            range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + '%';
           }
         });
       });
@@ -303,26 +302,6 @@
 
   <script>
     /*
-      if (key === 'space') {
-            let spaceArray = uniqueValueInCategoryList[key];
-
-
-            let filterColumnTitleColor = document.querySelector('.__filter_column_title .fa-space');
-            let filterColorItem = document.querySelector('.__filter_column_item_slider');
-            filterColumnTitleColor.addEventListener('click', function () {
-                filterColorItem.classList.toggle('__hidden_scffci_cslft');
-                filterColumnTitleColor.classList.toggle('active');
-            });
-        }
-
-
-
-
-
-
-
-
-
 
    const rangeInput = document.querySelectorAll(".__range_input input");
    const priceInput = document.querySelectorAll(".__price_input input");
@@ -511,3 +490,36 @@ showFilteredData(filterParameter);
 });
 });
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+priceInput.forEach(input => {
+input.addEventListener('input', e => {
+let minPrice = parseInt(priceInput[0].value),
+maxPrice = parseInt(priceInput[1].value);
+
+if ((maxPrice - minPrice >= priceGap) && maxPrice <= rangeInput[1].max) {
+if (e.target.classList.contains('__input_min')) {
+rangeInput[0].value = minPrice;
+sliderProgress.style.left = ((minPrice / rangeInput[0].max) * 100) + '%';
+} else {
+rangeInput[1].value = maxPrice;
+sliderProgress.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + '%';
+}
+}
+});
+});

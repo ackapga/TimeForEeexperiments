@@ -1,25 +1,29 @@
 <?php
 $directories = [
-    //'almaty',
-    //'astana',
+    'almaty',
+    'astana',
+    'nursultan',
     'shymkent',
 ];
 
 $filesToChange = [
-    "lar.html",
-    "lar_blind.html",
-    "lar_bent.html",
-    "lar_straight.html",
-    "lar_for_shop.html",
-    "lar_for_ice_cream.html",
-    "lar_frostor.html",
-    "lar_italfrost.html",
-    "lar_for_meat.html",
-    "lar_for_200_liter.html",
-    "lar_for_500_liter.html",
-    "lar_for_large.html",
-    "lar_for_small.html",
-    "lar_for_home.html",
+    "products.html",
+    "holod_shkaf.html",
+    "holod_beverages.html",
+    "holod_polair.html",
+    "holod_mini.html",
+    "holod_shx.html",
+    "holod_vegetables.html",
+    "holod_freezers.html",
+    "holod_steklo.html",
+    "holod_steklo_2dver.html",
+    "holod_coupe.html",
+    "holod_closed.html",
+    "holod_pharmacy.html",
+    "holod_steel.html",
+    "holod_industrial.html",
+    "holod_abat.html",
+    "holod_carboma.html",
 ];
 
 foreach ($directories as $dir) {
@@ -27,8 +31,8 @@ foreach ($directories as $dir) {
     foreach ($filesToChange as $file) {
         $wayToFile = $dir . DIRECTORY_SEPARATOR . $file;
         $check = is_file($wayToFile);
-        //justCopyFile($file, $wayToFile);
-        changeNameCityAndHeaderFooter($wayToFile, $dir);
+        justCopyFile($file, $wayToFile);
+        //changeNameCityAndHeaderFooter($wayToFile, $dir);
     }
 }
 
@@ -59,6 +63,22 @@ function changeNameCityAndHeaderFooter($fileWhichChange, $location)
             // Title | Description
             $content = changeTitleDisc('в Алматы', 'в Астане', $content);
             $content = changeTitleDisc('по Алматы', 'по Астане', $content);
+
+            $content = str_replace(
+                '<span class="hndc__name">Алматы</span>',
+                '<span class="hndc__name">Астана</span>',
+                $content);
+
+            $content = str_replace(
+                '<a href="tel:87273449900"> &nbsp 8 (727) <span>344-99-00</span></a>',
+                '<a href="tel:87172279900"> &nbsp; 8 (7172) <span>27-99-00</span></a>',
+                $content);
+
+            break;
+        case 'nursultan':
+            // Title | Description
+            $content = changeTitleDisc('в Алматы', 'в городе Астана', $content);
+            $content = changeTitleDisc('по Алматы', 'по городу Астана', $content);
 
             $content = str_replace(
                 '<span class="hndc__name">Алматы</span>',

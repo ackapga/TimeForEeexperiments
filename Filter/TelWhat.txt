@@ -1,0 +1,50 @@
+
+                                <li class="telegram-li">
+                                    <a href="https://telegram.me/botaidiamarket" class="telegram" onclick="gtag('event', 'Click footer (whats, tel, insta, yout)', {'event_category': 'link2', 'event_action': 'click2'});">
+                                        <i style="font-size: 25px; padding: 1px 4.5px 0 0" class='fab fa-telegram-plane fa-2x'></i>
+                                    </a>
+                                </li>
+                                <li class="whatsapp-li">
+                                    <a href="https://wa.me/77027334400" class="whatsapp" onclick="gtag('event', 'Click footer (whats, tel, insta, yout)', {'event_category': 'link2', 'event_action': 'click2'});">
+                                        <i style="font-size: 27px; padding: 0 0 0 0.5px" class="fab fa-whatsapp"></i>
+                                    </a>
+                                </li>
+
+
+
+                                
+// _____________________________________________ WhatsApp Random Number ________________________________________________
+
+let whatsAppPmNumbers = [
+    "77051549900",
+    "77027334400",
+    "77011018388",
+    "77012246600",
+    "77019115500",
+    "77051594400",
+    "77019445500",
+    "77017993322",
+    "77027116600",
+    "77018773300",
+    "77012336600",
+    "77015019900",
+    "77018837700",
+    "77028776600",
+    "77027773656",
+    "77029976600",
+    "77012668800",
+    "77029974400",
+    "77027336600",
+];
+
+let randomIndex = Math.floor(Math.random() * whatsAppPmNumbers.length);
+let newPmNumber = whatsAppPmNumbers[randomIndex];
+
+let whatsappClass = document.querySelector('.whatsapp');
+if (whatsappClass) {
+    let whatsappClassHref = whatsappClass.getAttribute('href');
+    let newPmNumberForHref = whatsappClassHref.replace(/(\d+)/, newPmNumber);
+    whatsappClass.setAttribute('href', newPmNumberForHref);
+}
+
+// _____________________________________________________________________________________________________________________

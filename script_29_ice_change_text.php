@@ -1,17 +1,4 @@
 <?php
-/*
-"capri490.html"
-"bc105.html"
-"carboma_shkaf2.html"
-"bonvini.html"
-"dv110s.html"
-"shx080.html"
-"cm105gm.html"
-"dm104_bravo.html"
-"cm110gm.html"
-"dm105s.html"
-"dm110sd.html"
-*/
 
 $directories = [
     //'',

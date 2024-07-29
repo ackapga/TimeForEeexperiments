@@ -69,8 +69,8 @@
       <node color="8" path="$PROJECT_DIR$/almaty/zakaz.php" />
       <node color="8" path="$PROJECT_DIR$/almaty/zakaz_astana.php" />
       <node color="6" path="$PROJECT_DIR$/almaty_contact.html" />
-      <node color="11" path="$PROJECT_DIR$/alt_new_s_1350.html" />
-      <node color="11" path="$PROJECT_DIR$/alt_new_s_1950.html" />
+      <node color="9" path="$PROJECT_DIR$/alt_new_s_1350.html" />
+      <node color="9" path="$PROJECT_DIR$/alt_new_s_1950.html" />
       <node color="5" path="$PROJECT_DIR$/apteka.html" />
       <node color="9" path="$PROJECT_DIR$/argo_87.html" />
       <node color="9" path="$PROJECT_DIR$/argo_xl.html" />
@@ -136,7 +136,7 @@
       <node color="3" path="$PROJECT_DIR$/banknotes_schetchiki.html" />
       <node color="9" path="$PROJECT_DIR$/bar_argo.html" />
       <node color="9" path="$PROJECT_DIR$/bar_carboma.html" />
-      <node color="11" path="$PROJECT_DIR$/barcelona.html" />
+      <node color="9" path="$PROJECT_DIR$/barcelona.html" />
       <node color="9" path="$PROJECT_DIR$/bc105.html" />
       <node color="9" path="$PROJECT_DIR$/bc110sd.html" />
       <node color="2" path="$PROJECT_DIR$/boneta.html" />
@@ -219,11 +219,11 @@
       <node color="9" path="$PROJECT_DIR$/carboma_mini.html" />
       <node color="11" path="$PROJECT_DIR$/carboma_nad.html" />
       <node color="9" path="$PROJECT_DIR$/carboma_open.html" />
-      <node color="11" path="$PROJECT_DIR$/carboma_polus.html" />
+      <node color="9" path="$PROJECT_DIR$/carboma_polus.html" />
       <node color="10" path="$PROJECT_DIR$/carboma_provance.html" />
       <node color="9" path="$PROJECT_DIR$/carboma_shkaf.html" />
       <node color="9" path="$PROJECT_DIR$/carboma_shkaf2.html" />
-      <node color="11" path="$PROJECT_DIR$/carboma_tokyo.html" />
+      <node color="9" path="$PROJECT_DIR$/carboma_tokyo.html" />
       <node color="5" path="$PROJECT_DIR$/clothes.html" />
       <node color="9" path="$PROJECT_DIR$/cm105g.html" />
       <node color="9" path="$PROJECT_DIR$/cm105gm.html" />
@@ -233,7 +233,7 @@
       <node color="9" path="$PROJECT_DIR$/cm110gm.html" />
       <node color="9" path="$PROJECT_DIR$/cm110s.html" />
       <node color="9" path="$PROJECT_DIR$/cm110sm.html" />
-      <node color="11" path="$PROJECT_DIR$/comfort-dc.html" />
+      <node color="9" path="$PROJECT_DIR$/comfort-dc.html" />
       <node color="7" path="$PROJECT_DIR$/comfort-dc.php" />
       <node color="2" path="$PROJECT_DIR$/computer.html" />
       <node color="3" path="$PROJECT_DIR$/computer_block.html" />
@@ -298,26 +298,26 @@
       <node color="3" path="$PROJECT_DIR$/freezers_showcases.html" />
       <node color="9" path="$PROJECT_DIR$/gc95.html" />
       <node color="9" path="$PROJECT_DIR$/gc110.html" />
-      <node color="11" path="$PROJECT_DIR$/glory-dc-pro.html" />
+      <node color="9" path="$PROJECT_DIR$/glory-dc-pro.html" />
       <node color="7" path="$PROJECT_DIR$/glory-dc-pro.php" />
-      <node color="11" path="$PROJECT_DIR$/glory-dc.html" />
+      <node color="9" path="$PROJECT_DIR$/glory-dc.html" />
       <node color="7" path="$PROJECT_DIR$/glory-dc.php" />
       <node color="8" path="$PROJECT_DIR$/google09299df6d0846cd3.html" />
       <node color="8" path="$PROJECT_DIR$/google72477c747431f35f.html" />
       <node color="8" path="$PROJECT_DIR$/googlea763be83c8900889.html" />
-      <node color="11" path="$PROJECT_DIR$/gorka_snezh_garda_1250x710.html" />
-      <node color="11" path="$PROJECT_DIR$/gorka_snezh_garda_1250x830.html" />
-      <node color="11" path="$PROJECT_DIR$/gorka_snezh_garda_1875x710.html" />
-      <node color="11" path="$PROJECT_DIR$/gorka_snezh_garda_1875x830.html" />
-      <node color="11" path="$PROJECT_DIR$/gorka_snezh_garda_2500x710.html" />
-      <node color="11" path="$PROJECT_DIR$/gorka_snezh_garda_2500x830.html" />
-      <node color="11" path="$PROJECT_DIR$/hi-tech-dc-pro.html" />
+      <node color="9" path="$PROJECT_DIR$/gorka_snezh_garda_1250x710.html" />
+      <node color="9" path="$PROJECT_DIR$/gorka_snezh_garda_1250x830.html" />
+      <node color="9" path="$PROJECT_DIR$/gorka_snezh_garda_1875x710.html" />
+      <node color="9" path="$PROJECT_DIR$/gorka_snezh_garda_1875x830.html" />
+      <node color="9" path="$PROJECT_DIR$/gorka_snezh_garda_2500x710.html" />
+      <node color="9" path="$PROJECT_DIR$/gorka_snezh_garda_2500x830.html" />
+      <node color="9" path="$PROJECT_DIR$/hi-tech-dc-pro.html" />
       <node color="7" path="$PROJECT_DIR$/hi-tech-dc-pro.php" />
-      <node color="11" path="$PROJECT_DIR$/hi-tech-dc.html" />
+      <node color="9" path="$PROJECT_DIR$/hi-tech-dc.html" />
       <node color="7" path="$PROJECT_DIR$/hi-tech-dc.php" />
-      <node color="11" path="$PROJECT_DIR$/hi-tech-pro.html" />
+      <node color="9" path="$PROJECT_DIR$/hi-tech-pro.html" />
       <node color="7" path="$PROJECT_DIR$/hi-tech-pro.php" />
-      <node color="11" path="$PROJECT_DIR$/hi-tech.html" />
+      <node color="9" path="$PROJECT_DIR$/hi-tech.html" />
       <node color="7" path="$PROJECT_DIR$/hi-tech.php" />
       <node color="3" path="$PROJECT_DIR$/holod_abat.html" />
       <node color="3" path="$PROJECT_DIR$/holod_beverages.html" />
@@ -611,9 +611,9 @@
       <node color="8" path="$PROJECT_DIR$/post-email.php" />
       <node color="8" path="$PROJECT_DIR$/post-email_admin.php" />
       <node color="8" path="$PROJECT_DIR$/post-email_astana.php" />
-      <node color="11" path="$PROJECT_DIR$/prestige-dc.html" />
+      <node color="9" path="$PROJECT_DIR$/prestige-dc.html" />
       <node color="7" path="$PROJECT_DIR$/prestige-dc.php" />
-      <node color="11" path="$PROJECT_DIR$/prime-dc.html" />
+      <node color="9" path="$PROJECT_DIR$/prime-dc.html" />
       <node color="7" path="$PROJECT_DIR$/prime-dc.php" />
       <node color="2" path="$PROJECT_DIR$/printer.html" />
       <node color="3" path="$PROJECT_DIR$/printer_label.html" />
@@ -814,13 +814,13 @@
       <node color="11" path="$PROJECT_DIR$/skhs-70n-yashchiki-1-2-s-bortom.html" />
       <node color="11" path="$PROJECT_DIR$/skhs-80-01p-dlya-pitstsy-2-dveri-gn-1-4-8-sht.html" />
       <node color="5" path="$PROJECT_DIR$/sklad.html" />
-      <node color="11" path="$PROJECT_DIR$/slim-dc-pro.html" />
+      <node color="9" path="$PROJECT_DIR$/slim-dc-pro.html" />
       <node color="7" path="$PROJECT_DIR$/slim-dc-pro.php" />
-      <node color="11" path="$PROJECT_DIR$/slim-dc.html" />
+      <node color="9" path="$PROJECT_DIR$/slim-dc.html" />
       <node color="7" path="$PROJECT_DIR$/slim-dc.php" />
-      <node color="11" path="$PROJECT_DIR$/slim-pro.html" />
+      <node color="9" path="$PROJECT_DIR$/slim-pro.html" />
       <node color="7" path="$PROJECT_DIR$/slim-pro.php" />
-      <node color="11" path="$PROJECT_DIR$/slim.html" />
+      <node color="9" path="$PROJECT_DIR$/slim.html" />
       <node color="7" path="$PROJECT_DIR$/slim.php" />
       <node color="9" path="$PROJECT_DIR$/split_mikrokanal.html" />
       <node color="9" path="$PROJECT_DIR$/split_msn.html" />
@@ -873,15 +873,15 @@
       <node color="4" path="$PROJECT_DIR$/umag_odejda.html" />
       <node color="4" path="$PROJECT_DIR$/umag_pharmacy.html" />
       <node color="1" path="$PROJECT_DIR$/uslugi.html" />
-      <node color="11" path="$PROJECT_DIR$/varshava_220.html" />
-      <node color="11" path="$PROJECT_DIR$/varshava_bxc.html" />
+      <node color="9" path="$PROJECT_DIR$/varshava_220.html" />
+      <node color="9" path="$PROJECT_DIR$/varshava_bxc.html" />
       <node color="11" path="$PROJECT_DIR$/varshava_bxc_1875.html" />
       <node color="11" path="$PROJECT_DIR$/varshava_bxc_fruit.html" />
       <node color="11" path="$PROJECT_DIR$/varshava_bxcnp_375.html" />
-      <node color="11" path="$PROJECT_DIR$/varshava_bxcp.html" />
-      <node color="11" path="$PROJECT_DIR$/varshava_bxcp_25.html" />
-      <node color="11" path="$PROJECT_DIR$/varshava_bxcp_375.html" />
-      <node color="11" path="$PROJECT_DIR$/varshava_bxcp_1875.html" />
+      <node color="9" path="$PROJECT_DIR$/varshava_bxcp.html" />
+      <node color="9" path="$PROJECT_DIR$/varshava_bxcp_25.html" />
+      <node color="9" path="$PROJECT_DIR$/varshava_bxcp_375.html" />
+      <node color="9" path="$PROJECT_DIR$/varshava_bxcp_1875.html" />
       <node color="11" path="$PROJECT_DIR$/varshava_torcevaya.html" />
       <node color="9" path="$PROJECT_DIR$/veneto.html" />
       <node color="9" path="$PROJECT_DIR$/veneto_vs.html" />

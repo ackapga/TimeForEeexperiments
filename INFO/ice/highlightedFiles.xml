@@ -187,10 +187,10 @@
       <node color="9" path="$PROJECT_DIR$/capri112.html" />
       <node color="9" path="$PROJECT_DIR$/capri390.html" />
       <node color="9" path="$PROJECT_DIR$/capri490.html" />
-      <node color="11" path="$PROJECT_DIR$/carboma_2g.html" />
-      <node color="11" path="$PROJECT_DIR$/carboma_4g.html" />
-      <node color="11" path="$PROJECT_DIR$/carboma_250.html" />
-      <node color="11" path="$PROJECT_DIR$/carboma_360.html" />
+      <node color="9" path="$PROJECT_DIR$/carboma_2g.html" />
+      <node color="9" path="$PROJECT_DIR$/carboma_4g.html" />
+      <node color="9" path="$PROJECT_DIR$/carboma_250.html" />
+      <node color="9" path="$PROJECT_DIR$/carboma_360.html" />
       <node color="10" path="$PROJECT_DIR$/carboma_britany.html" />
       <node color="9" path="$PROJECT_DIR$/carboma_bxcb.html" />
       <node color="9" path="$PROJECT_DIR$/carboma_bxcb_09.html" />
@@ -217,7 +217,7 @@
       <node color="9" path="$PROJECT_DIR$/carboma_lux.html" />
       <node color="9" path="$PROJECT_DIR$/carboma_met.html" />
       <node color="9" path="$PROJECT_DIR$/carboma_mini.html" />
-      <node color="11" path="$PROJECT_DIR$/carboma_nad.html" />
+      <node color="9" path="$PROJECT_DIR$/carboma_nad.html" />
       <node color="9" path="$PROJECT_DIR$/carboma_open.html" />
       <node color="9" path="$PROJECT_DIR$/carboma_polus.html" />
       <node color="10" path="$PROJECT_DIR$/carboma_provance.html" />
@@ -338,6 +338,9 @@
       <node color="3" path="$PROJECT_DIR$/holod_steklo.html" />
       <node color="3" path="$PROJECT_DIR$/holod_steklo_2dver.html" />
       <node color="2" path="$PROJECT_DIR$/holod_stol.html" />
+      <node color="3" path="$PROJECT_DIR$/holod_stol_abat.html" />
+      <node color="3" path="$PROJECT_DIR$/holod_stol_freezing.html" />
+      <node color="3" path="$PROJECT_DIR$/holod_stol_polair.html" />
       <node color="3" path="$PROJECT_DIR$/holod_ustanovka.html" />
       <node color="3" path="$PROJECT_DIR$/holod_vegetables.html" />
       <node color="2" path="$PROJECT_DIR$/holod_vitrina.html" />
@@ -414,6 +417,7 @@
       <node color="7" path="$PROJECT_DIR$/js/products/printers3.js" />
       <node color="9" path="$PROJECT_DIR$/kapri_nerjaveika.html" />
       <node color="2" path="$PROJECT_DIR$/kondit.html" />
+      <node color="2" path="$PROJECT_DIR$/kondit_for_desserts.html" />
       <node color="9" path="$PROJECT_DIR$/kp_gamma_1200.html" />
       <node color="9" path="$PROJECT_DIR$/kp_gamma_1500.html" />
       <node color="9" path="$PROJECT_DIR$/kp_gamma_1800.html" />
@@ -590,6 +594,11 @@
       <node color="9" path="$PROJECT_DIR$/polair_db105s.html" />
       <node color="9" path="$PROJECT_DIR$/polair_db107s.html" />
       <node color="9" path="$PROJECT_DIR$/polair_dm110s.html" />
+      <node color="9" path="$PROJECT_DIR$/polair_td.html" />
+      <node color="9" path="$PROJECT_DIR$/polair_tm2.html" />
+      <node color="9" path="$PROJECT_DIR$/polair_tm3.html" />
+      <node color="9" path="$PROJECT_DIR$/polair_tm4.html" />
+      <node color="9" path="$PROJECT_DIR$/polair_tm_pizza_g.html" />
       <node color="9" path="$PROJECT_DIR$/polus.html" />
       <node color="9" path="$PROJECT_DIR$/polus_eco.html" />
       <node color="2" path="$PROJECT_DIR$/pos.html" />
@@ -618,7 +627,12 @@
       <node color="2" path="$PROJECT_DIR$/printer.html" />
       <node color="3" path="$PROJECT_DIR$/printer_label.html" />
       <node color="3" path="$PROJECT_DIR$/printer_receipt.html" />
+      <node color="2" path="$PROJECT_DIR$/pristen_rack.html" />
       <node color="2" path="$PROJECT_DIR$/pristen_vitrina.html" />
+      <node color="3" path="$PROJECT_DIR$/pristen_vitrina_carboma.html" />
+      <node color="3" path="$PROJECT_DIR$/pristen_vitrina_dazzl.html" />
+      <node color="3" path="$PROJECT_DIR$/pristen_vitrina_open.html" />
+      <node color="3" path="$PROJECT_DIR$/pristen_vitrina_with_door.html" />
       <node color="5" path="$PROJECT_DIR$/production.html" />
       <node color="1" path="$PROJECT_DIR$/products.html" />
       <node color="1" path="$PROJECT_DIR$/programs.html" />
@@ -828,7 +842,7 @@
       <node color="9" path="$PROJECT_DIR$/split_standard.html" />
       <node color="11" path="$PROJECT_DIR$/stol-s-okhlazhdaemoy-stoleshnitsey-pvv-n-70so-kupe.html" />
       <node color="11" path="$PROJECT_DIR$/stol-s-okhlazhdaemoy-stoleshnitsey-pvv-n-70so.html" />
-      <node color="11" path="$PROJECT_DIR$/stol_polus.html" />
+      <node color="9" path="$PROJECT_DIR$/stol_polus.html" />
       <node color="4" path="$PROJECT_DIR$/storehouse.html" />
       <node color="2" path="$PROJECT_DIR$/stulya_kresla.html" />
       <node color="9" path="$PROJECT_DIR$/sushi_case.html" />
@@ -944,6 +958,7 @@
       <node color="6" path="$PROJECT_DIR$/zakaz.php" />
       <node color="6" path="$PROJECT_DIR$/zakaz_astana.php" />
       <node color="7" path="$PROJECT_DIR$/zayavka.html" />
+      <node color="8" path="$PROJECT_DIR$/zzz_test.php" />
     </files>
     <colors>
       <color id="1" value="#eb69004e" name="Main" enabled="true" />

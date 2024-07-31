@@ -7,6 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/request" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/node_modules" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/sitemap" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/admin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/admin/css" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/admin/db" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/admin/img" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/almaty" />
       <excludeFolder url="file://$MODULE_DIR$/shymkent" />
       <excludeFolder url="file://$MODULE_DIR$/astana" />

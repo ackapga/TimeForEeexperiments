@@ -350,6 +350,7 @@
       <node color="3" path="$PROJECT_DIR$/holod_vitrina_thermal.html" />
       <node color="3" path="$PROJECT_DIR$/holod_vitrina_thermal_floor.html" />
       <node color="3" path="$PROJECT_DIR$/holod_vitrina_thermal_on_table.html" />
+      <node color="8" path="$PROJECT_DIR$/iiindex.html" />
       <node color="9" path="$PROJECT_DIR$/ilet_bhc.html" />
       <node color="9" path="$PROJECT_DIR$/ilet_bhx.html" />
       <node color="9" path="$PROJECT_DIR$/ilet_bxcd.html" />
@@ -791,42 +792,42 @@
       <node color="6" path="$PROJECT_DIR$/shymkent_contact.html" />
       <node color="8" path="$PROJECT_DIR$/sitemap" />
       <node color="8" path="$PROJECT_DIR$/sitemap.xml" />
-      <node color="11" path="$PROJECT_DIR$/skhn-60-01-2-dveri.html" />
-      <node color="11" path="$PROJECT_DIR$/skhn-70-1-dver.html" />
-      <node color="11" path="$PROJECT_DIR$/skhn-70-01-2-dveri-ranee-skhn-70-011.html" />
-      <node color="11" path="$PROJECT_DIR$/skhn-70-02-3-dveri-ranee-skhn-70-021.html" />
-      <node color="11" path="$PROJECT_DIR$/skhn-70n-01-dver-dver-bez-borta.html" />
-      <node color="11" path="$PROJECT_DIR$/skhn-70n-01-dver-dver-s-bortom.html" />
-      <node color="11" path="$PROJECT_DIR$/skhn-70n-01-dver-yashchik-1-2-bez-borta.html" />
-      <node color="11" path="$PROJECT_DIR$/skhn-70n-01-dver-yashchik-1-2-s-bortom.html" />
-      <node color="11" path="$PROJECT_DIR$/skhn-70n-01-dver-yashchik-1-bez-borta.html" />
-      <node color="11" path="$PROJECT_DIR$/skhn-70n-01-dver-yashchik-1-s-bortom.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-60-01-2-dveri.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-60-01-so-2-dveri.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-60-02-3-dveri.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70-1-dver.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70-01-2-dveri-ranee-skhs-70-011.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70-01p-dlya-pitstsy-2-dveri-gn-1-4-8-sht.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70-02-3-dveri-ranee-skhs-70-021.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-01-dver-dver-bez-borta.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-01-dver-dver-s-bortom.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-01-dver-yashchik-1-bez-borta.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-01-dver-yashchik-1-s-bortom.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-01-dver-yashchiki-1-2-bez-borta.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-01-dver-yashchiki-1-2-s-bortom.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-02-dver-dver-dver-bez-borta.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-02-dver-dver-dver-s-bortom.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-02-dver-dver-yashchiki-1-2-bez-borta.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-02-dver-dver-yashchiki-1-2-s-bortom.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-02-dver-yashchiki-1-2-yashchik-1-bez-borta.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-02-dver-yashchiki-1-2-yashchik-1-s-bortom.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-dver-bez-borta.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-dver-s-bortom.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-yashchik-1-bez-borta.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-yashchik-1-s-bortom.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-yashchiki-1-2-bez-borta.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-70n-yashchiki-1-2-s-bortom.html" />
-      <node color="11" path="$PROJECT_DIR$/skhs-80-01p-dlya-pitstsy-2-dveri-gn-1-4-8-sht.html" />
+      <node color="9" path="$PROJECT_DIR$/skhn-60-01-2-dveri.html" />
+      <node color="9" path="$PROJECT_DIR$/skhn-70-1-dver.html" />
+      <node color="9" path="$PROJECT_DIR$/skhn-70-01-2-dveri-ranee-skhn-70-011.html" />
+      <node color="9" path="$PROJECT_DIR$/skhn-70-02-3-dveri-ranee-skhn-70-021.html" />
+      <node color="9" path="$PROJECT_DIR$/skhn-70n-01-dver-dver-bez-borta.html" />
+      <node color="9" path="$PROJECT_DIR$/skhn-70n-01-dver-dver-s-bortom.html" />
+      <node color="9" path="$PROJECT_DIR$/skhn-70n-01-dver-yashchik-1-2-bez-borta.html" />
+      <node color="9" path="$PROJECT_DIR$/skhn-70n-01-dver-yashchik-1-2-s-bortom.html" />
+      <node color="9" path="$PROJECT_DIR$/skhn-70n-01-dver-yashchik-1-bez-borta.html" />
+      <node color="9" path="$PROJECT_DIR$/skhn-70n-01-dver-yashchik-1-s-bortom.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-60-01-2-dveri.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-60-01-so-2-dveri.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-60-02-3-dveri.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70-1-dver.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70-01-2-dveri-ranee-skhs-70-011.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70-01p-dlya-pitstsy-2-dveri-gn-1-4-8-sht.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70-02-3-dveri-ranee-skhs-70-021.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-01-dver-dver-bez-borta.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-01-dver-dver-s-bortom.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-01-dver-yashchik-1-bez-borta.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-01-dver-yashchik-1-s-bortom.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-01-dver-yashchiki-1-2-bez-borta.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-01-dver-yashchiki-1-2-s-bortom.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-02-dver-dver-dver-bez-borta.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-02-dver-dver-dver-s-bortom.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-02-dver-dver-yashchiki-1-2-bez-borta.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-02-dver-dver-yashchiki-1-2-s-bortom.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-02-dver-yashchiki-1-2-yashchik-1-bez-borta.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-02-dver-yashchiki-1-2-yashchik-1-s-bortom.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-dver-bez-borta.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-dver-s-bortom.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-yashchik-1-bez-borta.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-yashchik-1-s-bortom.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-yashchiki-1-2-bez-borta.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-70n-yashchiki-1-2-s-bortom.html" />
+      <node color="9" path="$PROJECT_DIR$/skhs-80-01p-dlya-pitstsy-2-dveri-gn-1-4-8-sht.html" />
       <node color="5" path="$PROJECT_DIR$/sklad.html" />
       <node color="9" path="$PROJECT_DIR$/slim-dc-pro.html" />
       <node color="7" path="$PROJECT_DIR$/slim-dc-pro.php" />
@@ -840,8 +841,8 @@
       <node color="9" path="$PROJECT_DIR$/split_msn.html" />
       <node color="9" path="$PROJECT_DIR$/split_professionale.html" />
       <node color="9" path="$PROJECT_DIR$/split_standard.html" />
-      <node color="11" path="$PROJECT_DIR$/stol-s-okhlazhdaemoy-stoleshnitsey-pvv-n-70so-kupe.html" />
-      <node color="11" path="$PROJECT_DIR$/stol-s-okhlazhdaemoy-stoleshnitsey-pvv-n-70so.html" />
+      <node color="9" path="$PROJECT_DIR$/stol-s-okhlazhdaemoy-stoleshnitsey-pvv-n-70so-kupe.html" />
+      <node color="9" path="$PROJECT_DIR$/stol-s-okhlazhdaemoy-stoleshnitsey-pvv-n-70so.html" />
       <node color="9" path="$PROJECT_DIR$/stol_polus.html" />
       <node color="4" path="$PROJECT_DIR$/storehouse.html" />
       <node color="2" path="$PROJECT_DIR$/stulya_kresla.html" />

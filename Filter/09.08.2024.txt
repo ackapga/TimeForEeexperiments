@@ -1,0 +1,65 @@
+    let spaceSlider = document.querySelector('.__filter_column_space');
+    if (spaceSlider) {
+
+        function updateLocalStorageFilter(resultOne, position) {
+            const key = position === 1 ? "filter" : "filterSecond";
+            const storedFilter = localStorage.getItem(key);
+            let currentFilter = storedFilter ? JSON.parse(storedFilter) : {};
+            for (let key in resultOne) {
+                if (resultOne.hasOwnProperty(key)) {
+                    currentFilter[key] = resultOne[key];
+                }
+            }
+            localStorage.setItem(key, JSON.stringify(currentFilter));
+        }
+
+        let resultOne = uniqueValueInCategory(result);
+        delete resultOne.space;
+        delete resultOne.length;
+        updateLocalStorageFilter(resultOne, 1);
+
+        let resultTwo = uniqueValueInCategory(result);
+        delete resultTwo.type;
+        delete resultTwo.pattern;
+        delete resultTwo.color;
+        delete resultTwo.temperature;
+        delete resultTwo.cooling;
+        delete resultTwo.canape;
+        delete resultTwo.frame;
+        updateLocalStorageFilter(resultTwo, 2);
+
+        function getLocalStorageFilter(status, currentData) {
+            let storedFilter;
+            let array;
+
+            if (status === 1) {
+                storedFilter = localStorage.getItem("filter");
+            } else {
+                storedFilter = localStorage.getItem("filterSecond");
+            }
+
+            if (storedFilter) {
+                const parsedFilter = JSON.parse(storedFilter);
+
+                if (JSON.stringify(parsedFilter) === JSON.stringify(currentData)) {
+                    return false;
+                }
+
+                array = parsedFilter;
+            }
+
+            return false;
+        }
+
+        let resultThree = getLocalStorageFilter(1, resultOne);
+
+        let resultFour = getLocalStorageFilter(2,);
+
+
+        if (resultFour) {
+            sliderFilterByAsk(resultFour['space'], 'space', 'Рабочий объем: (л)', selectionCategoriesFilterHtml, 2);
+            resultFour['space'] ? spaceSlider.classList.remove('inactive') : spaceSlider.classList.add('inactive');
+        }
+
+
+    }
